@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+    <!-- Grid layout - It allows us to align elements into rows and columns -->
+    <!-- Bootstrap uses 12 column grid system i.e we can set the width of an element in a row in between 1 to 12 -->
+
+    <!-- Basic grid -->
+
+    <div class="conatainer.lg">
+        <div class="row">
+            <div class="col">
+                <div class="p-5 m-3 bg-primary">col 1</div>
+            </div>
+            <div class="col">
+                <div class="p-5 m-3 bg-primary">col 2</div>
+            </div>
+            <div class="col">
+                <div class="p-5 m-3 bg-primary">col 3</div>
+            </div>
+        </div>
+    </div>
+    <!-- Here row and col are pre-defined bootstrap classes -->
+
+    <!-- Specifying Column width -->
+    <div class="conatainer.lg">
+        <div class="row">
+            <div class="col-6">
+                <div class="p-5 m-3 bg-primary">col 1</div>
+            </div>
+            <div class="col-3">
+                <div class="p-5 m-3 bg-primary">col 2</div>
+            </div>
+            <div class="col-3">
+                <div class="p-5 m-3 bg-primary">col 3</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Responsive column width-->
+    <div class="conatainer.lg">
+        <div class="row">
+            <div class="col-sm-4 col-lg-6">
+                <div class="p-5 m-3 bg-primary">col 1</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+                <div class="p-5 m-3 bg-primary">col 2</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+                <div class="p-5 m-3 bg-primary">col 3</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Justifying columns -->
+    <div class="conatainer.lg">
+        <div class="row justify-content-around">
+            <div class="col-3">
+                <div class="p-5 m-3 bg-primary">col 1</div>
+            </div>
+            <div class="col-3">
+                <div class="p-5 m-3 bg-primary">col 2</div>
+            </div>
+            <div class="col-3">
+                <div class="p-5 m-3 bg-primary">col 3</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
